@@ -1,19 +1,17 @@
-# gruvbuddy.nvim
+# catbuddy.nvim
 
-Gruvbox-esque colors using [tjdevries/colorbuddy.vim](https://github.com/tjdevries/colorbuddy.vim)
-
-![screen](./media/screenshot.png)
+Catppuccin mocha colors using [tjdevries/colorbuddy.vim](https://github.com/tjdevries/colorbuddy.vim)
 
 This plugin is also an example of how easy it is to customize and make new colorschemes based on `colorbuddy`.
 
-Check out `lua/gruvbuddy.lua`
+Check out `lua/catbuddy.lua`
 
 ## Installation
 
 ```vim
 Plug 'tjdevries/colorbuddy.vim'
-Plug 'tjdevries/gruvbuddy.nvim'
+Plug 'avi-2-avi/catbuddy.nvim'
 
 " And then somewhere in your vimrc, to set the colorscheme
-lua require('colorbuddy').colorscheme('gruvbuddy')
+lua require('colorbuddy').colorscheme('catbuddy')
 ```
